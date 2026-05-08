@@ -1,0 +1,18 @@
+Full_Graph:
+MATCH (p:Person) - [post:POSTED] -> (t:Tweet) - [m:MENTIONS] -> (s:Stock)
+RETURN p, post, t, m, s;
+
+Jim_Elon_Stock:
+MATCH (p:Person)-[post:POSTED]->(t:Tweet) - [m:MENTIONS] -> (s:Stock)
+WHERE p.name IN ["Elon Musk", "Jim Cramer"]
+RETURN p, post, t, m, s;
+
+Retweet_count:
+MATCH (t:Tweet) - [m:MENTIONS] -> (s:Stock)
+WHERE t.retweet_count > 500 
+RETURN t, m, s;
+
+Person_Retweet_Count:
+MATCH (p:Person) - [post:POSTED] -> (t:Tweet) - [m:MENTIONS] -> (s:Stock)
+WHERE t.retweet_count > 500 
+RETURN p, post, t, m, s;

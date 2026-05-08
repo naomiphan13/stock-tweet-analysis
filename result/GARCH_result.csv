@@ -1,0 +1,10 @@
+ticker,p,q,mu,mu_pval,omega,omega_pval,alpha1,alpha1_pval,beta,beta_pval,loglik,AIC,BIC,
+AAPL,1,1,0.08,0.15,0.46,0.39,0.15,0.20,0.64,0.07,-1172.49,2352.98,2370.98,AAPL is relatively quiet/stable in 2024–2025.
+AMZN,1,1,0.03,0.57,1.59,0.00,0.59,0.01,0.06,0.59,-1289.87,2587.74,2605.74,AMZN volatility spikes after shocks but does not stay elevated. Highly reactive but not persistent.
+AVGO,1,1,0.11,0.31,1.95,0.08,0.21,0.10,0.59,0.00,-1628.13,3264.26,3282.26,Volatility is dominated by persistence rather than sudden shocks.
+GOOG,1,1,0.17,0.03,2.21,0.00,0.15,0.25,0.05,0.72,-1269.05,2546.10,2564.10,GOOG volatility is mostly constant; little evidence of clustering.
+META,1,1,0.15,0.08,1.01,0.23,0.08,0.09,0.70,0.00,-1422.54,2853.08,2871.08,Volatility mainly driven by long-memory; slow decay. Classic GARCH behavior.
+MSFT,1,1,0.06,0.27,0.09,0.06,0.05,0.13,0.89,0.00,-1062.77,2133.54,2151.55,
+NVDA,1,1,0.31,0.00,0.27,0.41,0.06,0.13,0.91,0.00,-1610.08,3228.17,3246.17,
+TSLA,1,1,0.14,0.33,0.30,0.55,0.01,0.54,0.96,0.00,-1780.81,3569.63,3587.63,
+TSM,1,1,0.20,0.02,4.18,0.00,0.14,0.07,0.03,0.88,-1476.27,2960.55,2978.55,
