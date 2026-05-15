@@ -1,7 +1,5 @@
 # Stock Tweet Analysis: Do Influential Voices Move Markets?
 
-**CSC 501 — Data Management | Fall 2025**
-
 ---
 
 ## Overview
@@ -39,8 +37,6 @@ stock-tweet-analysis/
 │       ├── stock_utils.py              ← Price preprocessing & merging
 │       ├── analysis_utils.py           ← GARCH, Granger, ADF tests
 │       └── plotting_utils.py
-├── notebooks/
-│   └── Plot_Neo4j_Interactive.ipynb    ← Interactive network graph
 ├── plots/                              ← All generated visualizations
 ├── result/                             ← CSV outputs from statistical tests
 └── queries/
